@@ -1,4 +1,4 @@
-<h2 align="center">Personal Portfolio <br/> <a target="_blank" href="">rashmithaettadi</a></h2>
+<h2 align="center">Personal Portfolio <br/> <a target="_blank" href="https://rashmithaettadi.github.io/portfolioReact/">rashmithaettadi</a></h2>
 
 <br/>
 
