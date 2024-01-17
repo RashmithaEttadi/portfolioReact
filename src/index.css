@@ -157,7 +157,7 @@ b{
     position: fixed;
     inset: 0 0 0 50%;
     gap: 50px;
-    background-color:#36cfbd;
+    background-color:#090909;
     height: 100vh;
     padding-top: max(20%,120px);
     transform: translateX(100%);
