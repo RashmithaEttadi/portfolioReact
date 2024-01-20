@@ -33,8 +33,8 @@ const Contact=()=>{
           </div>
         )}
         <form className="contactForm" ref={form} onSubmit={sendEmail}>
-            <input type="text" className="name" placeholder="Your Name "/>
-            <input type="email" className="email" placeholder="Your Email"/>
+            <input type="text" name="text" className="name" placeholder="Your Name "/>
+            <input type="email" name="email" className="email" placeholder="Your Email"/>
             <textarea className="msg" name="message" rows="6" placeholder="Your Message"></textarea>
             <button type='submit' value='Send' className="sendBtn">Submit <BsFillSendFill /> </button>
         </form>
