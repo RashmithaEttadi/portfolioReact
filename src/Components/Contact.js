@@ -16,7 +16,7 @@ const Contact=()=>{
 
          emailjs.sendForm(serviceID, templateID, form.current, public_key)
                  .then((result) => {
-                    console.log('Email sent successfully');
+                    console.log('submission successful');
                     setIsSuccess(true);
                  }, (error) => {
                     console.log('Error');
