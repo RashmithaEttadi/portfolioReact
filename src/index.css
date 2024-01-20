@@ -20,14 +20,14 @@
 
 body{
   font-family: 'Roboto Slab', sans-serif;
-  background-color: #090909;
-  color: #E7E7E7;
+  background-color: white;
+  color: #030303;
   min-height: 100vh;
 }
 
 b{
   font-weight: 500;
-  color: #18e0c6;
+  color: #216ad9;
 }
 
 /* Scrollbar */
@@ -90,7 +90,7 @@ b{
   font-size: 32px;
   letter-spacing: 2px;
   padding-left: 7%;
-  color: #19e9e2;
+  color:  #216ad9;;
   display: flex;
   align-items: center;
   text-align: center;
@@ -112,7 +112,7 @@ b{
 }
 
 .NavbarLinks a{
-  color: #c2c1c2;
+  color: #030303;
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -124,10 +124,10 @@ b{
 }
 
 .NavbarLinks a:hover{
-  color: #36cfbd;
+  color:  #216ad9;;
 }
 .NavbarLinks a::after{
-  background-color: #36cfbd;
+  background-color:  #216ad9;;
   content: "";
   position: absolute;
   height: 3px;
@@ -157,7 +157,7 @@ b{
     position: fixed;
     inset: 0 0 0 50%;
     gap: 50px;
-    background-color:#090909;
+    background-color:#E7E7E7;
     height: 100vh;
     padding-top: max(20%,120px);
     transform: translateX(100%);
@@ -178,7 +178,7 @@ b{
 
   .bar{
     display: block;
-    background-color: #E7E7E7;
+    background-color: #216ad9;
     border-radius: 50px;
     height: 2.5px;
     width: 30px;
@@ -205,11 +205,11 @@ b{
 
 .desktopMenuBtn{
   cursor: pointer;
-  background: white;
-  color: black;
+  background:  #216ad9;;
+  color: white;
   border: none;
   display: flex;
-  font-size: 14px;
+  font-size: 15px;
   align-items: center;
   justify-content: space-evenly;
   padding: 0 1rem;
@@ -276,14 +276,14 @@ b{
   max-width: 40rem;
   margin-bottom: 0.8rem;
   padding: 1rem 1.2rem;
-  color: white;
+  color: black;
   border: none;
   border-radius: 0.5rem;
-  background:rgb(40, 40, 40);
+  background:#E7E7E7;
 }
 .sendBtn{
   cursor:pointer;
-  background-color: #36cfbd;
+  background-color:  #216ad9;;
   color: #E7E7E7;
   margin: 0.5rem;
   padding: 0.75rem 3.5rem;
@@ -298,7 +298,7 @@ b{
 .sendBtn:hover{
   transition: all 0.5s;
   background-color: #E7E7E7;
-  color: #36cfbd;
+  color:  #216ad9;;
   /* #18e0c6#18e0c6 */
 }
 .msg::placeholder {
@@ -393,8 +393,8 @@ b{
 
 .AboutText{
   width: 50%;
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 30px;
   letter-spacing: 1.2px;
 }
@@ -404,7 +404,7 @@ b{
   padding-bottom: 40px;
 }
 .AboutText a{
-  color: #36cfbd;
+  color:  #216ad9;;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -453,19 +453,19 @@ b{
   align-items: center;
   justify-content: center;
   margin: 10px 25px 25px 10px;
-  border: 3px solid #36cfbd;
+  border: 3px solid  #216ad9;;
   font-size: 50px;
   border-radius: 5px;
   transition: 0.5s;
 }
 .skillContent{
   font-size: 16px;
-  color: #18e0c6;
+  color:  #216ad9;;
   padding: 10px;
 }
 .SkillBox:hover{
   transform: scale(1.2);
-  box-shadow: 0 2px 8px 0  #36cfbd;
+  box-shadow: 0 2px 8px 0   #216ad9;;
 }
 
 .SkillsHeading{
@@ -473,6 +473,7 @@ b{
   margin: 50px 10px;
   font-size: 36px;
   letter-spacing: 0.6px;
+  color: #216ad9;
 }
 
 
@@ -519,20 +520,20 @@ b{
 
 .projectBox{
   width: 350px;
-  border: 3px solid  #36cfbd;
+  border: 3px solid   #216ad9;;
   border-radius: 5px;
   text-align: center;
   padding: 15px;
   letter-spacing: 0.5px;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 22px;
   margin: 0px 25px 50px 25px;
   transition: 0.5s;
 }
 .projectBox:hover{
   transform: scale(1.05);
-  box-shadow: 0 4px 10px 0  #36cfbd;
+  box-shadow: 0 4px 10px 0  #216ad9;;
 }
 
 .projectPhoto{
@@ -549,7 +550,7 @@ b{
   width: 40%;
   margin: 25px 3% 0;
   border-radius: 5px;
-  background-color:  #36cfbd;
+  background-color:   #216ad9;;
   color: #E7E7E7;
   height: 30px;
   cursor:pointer;
@@ -560,6 +561,9 @@ b{
 
 /* Resume */
 
+#ResumePage{
+  background-color:rgb(179, 179, 179);
+}
 .ResumePage{
   padding-top: 50px;
   width: fit-content;
@@ -577,7 +581,7 @@ b{
   margin: 25px 0px;
   width: 200px;
   height: 40px;
-  background-color: #36cfbd;
+  background-color:  #216ad9;;
   color: #E7E7E7;
   text-decoration: none;
   border-radius: 5px;
@@ -588,7 +592,7 @@ b{
 .downloadCV:hover{
   transition: all 0.5s;
   background-color: #E7E7E7;
-  color: #36cfbd;
+  color:  #216ad9;
   /* #18e0c6#18e0c6 */
 }
 
@@ -614,7 +618,7 @@ footer{
 
 footer h4{
   margin: 0 25px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .footerLinks{

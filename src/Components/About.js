@@ -19,9 +19,7 @@ const About = () => {
             I am interested in becoming a Full-Stack developer and started working on 
             projects in <b>React</b> to learn Front-end frameworks.<br />
             Artificial Intelligence and Machine Learning technologies fascinates me and would love to explore and learn more.
-            {/* I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me.<br/>
-            Apart from coding I love to do photography, you can check out some of my shots here <a href="https://www.instagram.com/devansh_sahni_/?hl=en" target='_blank'>Instagram.</a> */}
-          </p>
+            </p>
         </div>
 
         <div>

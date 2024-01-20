@@ -26,7 +26,7 @@ function App() {
       {Loading ? (
       <div className="loader"> 
         <RingLoader
-          color={'#18e0c6'}
+          color={'#216ad9'}
           loading={true}
           size={50}
           margin={2}

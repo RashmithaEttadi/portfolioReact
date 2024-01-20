@@ -10,8 +10,7 @@ const Footer = () => {
       <div className='footerLinks'>
         <a href="https://github.com/RashmithaEttadi" target='_blank' rel="noopener noreferrer"><FaGithub/></a>
         <a href="https://www.linkedin.com/in/rashmithaettadi/" target='_blank' rel="noopener noreferrer" ><FaLinkedin/></a>
-        <a href='mailTo:rashmitha09ettadi@gmail.com' target='_blank' rel="noopener noreferrer" ><GrMail/></a>
-        {/* <a href="https://leetcode.com/sahni1403/" target="_blank"><SiLeetcode/></a> */}
+        <a href='mailTo:rashmitha9ettadi@gmail.com' target='_blank' rel="noopener noreferrer" ><GrMail/></a>
       </div>
     </footer>
   )
