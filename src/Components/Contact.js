@@ -29,7 +29,7 @@ const Contact=()=>{
         <span className="contactDesc"> Please fill out the form below to discuss any work opportunities.</span>
         {isSuccess && (
           <div className="success-message">
-            Your email was sent successfully!
+           Your submission successful!
           </div>
         )}
         <form className="contactForm" ref={form} onSubmit={sendEmail}>
