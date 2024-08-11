@@ -255,7 +255,7 @@ b{
   align-items: center;
   justify-content: center;
   font-size: medium;
-  font-weight: 300;
+  font-weight: 400;
   font-family:  'Roboto Slab', sans-serif;;
 }
 
@@ -460,7 +460,7 @@ b{
 }
 .skillContent{
   font-size: 16px;
-  color:  #216ad9;;
+  color:  #0c0c0c;;
   padding: 10px;
 }
 .SkillBox:hover{
