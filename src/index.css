@@ -326,6 +326,13 @@ b{
   padding-top: 10px;
   padding-left: 50px;
 }
+.HomeText h2{
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  padding-top: 10px;
+  padding-left: 50px;
+}
 
 .TypeEffect{
   padding: 25px 0px;

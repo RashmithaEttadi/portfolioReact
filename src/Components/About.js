@@ -11,10 +11,11 @@ const About = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >Get to know me!</h1>
           <p>
-            Hi, my name is <b>Rashmitha Ettadi.</b> I'm a <b>Java developer.</b> I'm pursuing master's in computer science at IUPUI, Indianapolis, IN, USA. <br/>
+            Hi, My name is <b>Rashmitha Ettadi.</b> I'm a <b>software developer.</b> I'm pursuing master's in computer science at Purdue University, Indianapolis, IN, USA. <br/>
             I worked as an <b>application developer</b> at Accenture, India.<br></br>
-            I worked on projects in <b>Java</b> and <b>Spring Boot</b> and known as backend developer.
-            I like challenging tasks. I love the process of creating software products and services that will 
+            I worked on projects in <b>Java</b>, <b>Spring Boot</b> , <b>Java Script</b> and databases like <b>MYSQL</b> and <b>Oracle</b>.
+            I like challenging tasks. <br/>
+            I love the process of creating software products and services that will 
             positively impact people's lives.<br />
             I am interested in becoming a Full-Stack developer and started working on 
             projects in <b>React</b> to learn Front-end frameworks.<br />
