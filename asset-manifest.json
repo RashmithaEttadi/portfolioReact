@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolioReact/static/css/main.569d1b3b.css",
-    "main.js": "/portfolioReact/static/js/main.132cca44.js",
+    "main.css": "/portfolioReact/static/css/main.b36c4cb0.css",
+    "main.js": "/portfolioReact/static/js/main.15ac6f1d.js",
     "static/media/GestureRecognition.png": "/portfolioReact/static/media/GestureRecognition.a4c4438292dc5faf94c6.png",
     "static/media/evoting.png": "/portfolioReact/static/media/evoting.094ee9ccb387fe3a158a.png",
     "static/media/facedetection.png": "/portfolioReact/static/media/facedetection.91957ffd50facf0610ec.png",
-    "static/media/Rashmitha_Ettadi.pdf": "/portfolioReact/static/media/Rashmitha_Ettadi.e43e304dd23ac2d3995c.pdf",
+    "static/media/Rashmitha,Ettadi.pdf": "/portfolioReact/static/media/Rashmitha,Ettadi.c8b71c564f69b514b69a.pdf",
     "static/media/portfolio_opt.png": "/portfolioReact/static/media/portfolio_opt.02d23c2d201ae2ed9835.png",
     "index.html": "/portfolioReact/index.html",
-    "main.569d1b3b.css.map": "/portfolioReact/static/css/main.569d1b3b.css.map",
-    "main.132cca44.js.map": "/portfolioReact/static/js/main.132cca44.js.map"
+    "main.b36c4cb0.css.map": "/portfolioReact/static/css/main.b36c4cb0.css.map",
+    "main.15ac6f1d.js.map": "/portfolioReact/static/js/main.15ac6f1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.569d1b3b.css",
-    "static/js/main.132cca44.js"
+    "static/css/main.b36c4cb0.css",
+    "static/js/main.15ac6f1d.js"
   ]
 }
