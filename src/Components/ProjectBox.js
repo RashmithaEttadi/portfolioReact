@@ -8,12 +8,12 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     PortfolioOptimizationGithub : "https://github.com/RashmithaEttadi/Financial_Portfolio_optimization_using_GAN_and_RL",
   
     
-    EVotingDesc:"Created a secure remote e-voting system that adheres to CIA security policies. Ensured the integrity of user votes by employing cryptographic techniques such as secure multi-party multiplication, Pallier cryptosystem, and mutual lock voting, thereby guaranteeing accurate vote counts without any alterations.This project was made to understand cryptographic techniques.",
-    EVotingGithub:"https://github.com/RashmithaEttadi/EVotingUsingHomomorphicEncryption",
+    DataAnalysisProjectDesc:"Engineered machine learning models with Linear Regression, SVR, and Random Forest to forecast power consumption across various zones using environmental data. Improved model accuracy by optimizing performance and visualized outcomes using clear and insightful charts",
+    DataAnalysisProjectGithub:"https://github.com/RashmithaEttadi/DataScienceProject",
     
 
-    GestureRecognitionDesc : "Implemented OpenCV functions and pyautogui library for gesture recognition. Hand gestures in a video are represented by text. This project was made to understand different hand segmentation methods in computer vision.",
-    GestureRecognitionGithub : "https://github.com/RashmithaEttadi/HandGestureRecognition",
+    MovieRecommendationDesc : "Developed a movie recommendation system using MongoDB, implementing CRUD operations and RESTful APIs to manage movie data, including titles, genres, and directors. Utilized aggregation pipelines for efficient querying and search functionality based on user preferences, leading to a more personalized movie recommendation experience.",
+    MovieRecommendationGithub : "https://github.com/RashmithaEttadi/MovieRecommendationSystem",
    
 
     FaceDetectionDesc:" Face, Hands and Shoulder positions in a video are detected and tracked using viola jones algorithm and mediapipe library. This project was made to understand Haar-like features, feature extraction from an image and video.",
