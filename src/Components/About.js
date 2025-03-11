@@ -11,7 +11,7 @@ const About = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >Get to know me!</h1>
           <p>
-            Hi, My name is <b>Rashmitha Ettadi.</b> I'm a <b>software developer.</b> I have graduated with master's degree in computer science at Purdue University, Indianapolis, IN, USA. <br/>
+            Hi, My name is <b>Rashmitha Ettadi.</b> I'm a <b>software developer.</b> I have graduated with master's degree in computer science from Purdue University, Indianapolis, IN, USA. <br/>
             I worked as an <b>application developer</b> at Accenture, India.<br></br>
             I worked on projects in <b>Java</b>, <b>Spring Boot</b> , <b>Java Script</b> and databases like <b>MYSQL</b> and <b>Oracle</b>.
             I like challenging tasks. <br/>
@@ -40,11 +40,12 @@ const About = () => {
       
         <Skills skill='Java'/>
         <Skills skill='Python' />
+        <Skills skill='Javascript' />
+        <Skills skill='React'/>
         <Skills skill='SpringBoot' />
+        <Skills skill='MongoDB'/>
         <Skills skill='Oracle' />
         <Skills skill='MySQL'/>
-        <Skills skill='React'/>
-        <Skills skill='Javascript' />
         <Skills skill='C++' />
         <Skills skill='Git' />
         <Skills skill='Postman' />

@@ -1,5 +1,6 @@
 import React from 'react';
 import {FaGithub} from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
@@ -16,15 +17,13 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     MovieRecommendationGithub : "https://github.com/RashmithaEttadi/MovieRecommendationSystem",
    
 
-    FaceDetectionDesc:" Face, Hands and Shoulder positions in a video are detected and tracked using viola jones algorithm and mediapipe library. This project was made to understand Haar-like features, feature extraction from an image and video.",
-    FaceDetectionGithub:"https://github.com/RashmithaEttadi/FaceDetectionAndTracking",
+    AICodeEditorDesc:"AI-Code Editor is an intelligent code editor that integrates AI-powered chat assistance to provide real-time debugging, explanations, and guidance on existing Judge0 IDE. It enhances productivity by offering inline code insights, bug detection with fix suggestions, and seamless AI-driven support directly within the editor.",
+    AICodeEditorYouTube:"https://youtu.be/xvz38QiB0tk",
   
   }
 
-  let show ='';
-  if(desc[projectName + 'Github']===""){
-    show="none";
-  }
+  let showGithub = desc[projectName + 'Github'] ? "block" : "none";
+  let showYouTube = desc[projectName + 'YouTube'] ? "block" : "none";
     
   return (
     <div className='projectBox'> 
@@ -36,13 +35,13 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
             {desc[projectName + 'Desc']}
             <br />
 
-            <a style={{display:show}} href={desc[projectName + 'Github']} target='_blank' rel="noopener noreferrer">
+            <a style={{ display: showGithub }} href={desc[projectName + 'Github']} target='_blank' rel="noopener noreferrer">
               <button className='projectbtn'><FaGithub/> Github</button>
             </a>
 
-            {/* <a href={desc[projectName + 'Website']} target='_blank'>
-              <button className='projectbtn'><CgFileDocument/> Demo</button>
-            </a> */}
+            <a style={{ display: showYouTube }} href={desc[projectName + 'YouTube']} target='_blank' rel="noopener noreferrer">
+              <button className='projectbtn'><FaYoutube /> YouTube</button>
+            </a>
         </div>
     </div>
   )

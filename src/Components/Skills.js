@@ -11,6 +11,7 @@ const Skills = ({skill}) => {
         'Python':<FaPython color="#306998"/>,
         'MySQL': <FaDatabase color="#4479A1" />,
         'SpringBoot':<SiSpringboot color="#6DB33F"/>,
+        'MongoDB':<FaDatabase color="#47A248"/>,
         'Oracle':<SiOracle color="#F80000"/>,
         'C++': <CgCPlusPlus color="#00599C"/>,
         'Postman': <SiPostman color="#FF6C37"/>,

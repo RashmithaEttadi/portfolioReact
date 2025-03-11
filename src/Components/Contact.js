@@ -10,9 +10,9 @@ const Contact=()=>{
    const sendEmail = (e) => {
           e.preventDefault(); 
     
-            const serviceID = 'service_8u7vib5';
-            const templateID = 'template_2govovn';
-            const public_key='y_X9K9AJIGBnyLmtc';
+            const serviceID = 'service_lsbox6m';
+            const templateID = 'template_q20tncj';
+            const public_key='a99KEihE5hZ0Q5j97';
 
          emailjs.sendForm(serviceID, templateID, form.current, public_key)
                  .then((result) => {
@@ -33,9 +33,9 @@ const Contact=()=>{
           </div>
         )}
         <form className="contactForm" ref={form} onSubmit={sendEmail}>
-            <input type="text" name="text" className="name" placeholder="Your Name "/>
-            <input type="email" name="email" className="email" placeholder="Your Email"/>
-            <textarea className="msg" name="message" rows="6" placeholder="Your Message"></textarea>
+            <input type="text" id="text" name="text" className="name" placeholder="Your Name "/>
+            <input type="email" id="email" name="email" className="email" placeholder="Your Email"/>
+            <textarea className="msg" id="message" name="message" rows="6" placeholder="Your Message"></textarea>
             <button type='submit' value='Send' className="sendBtn">Submit <BsFillSendFill /> </button>
         </form>
         </section>
