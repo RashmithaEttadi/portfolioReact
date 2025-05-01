@@ -3,6 +3,7 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {FaReact, FaGitAlt, FaPython, FaDatabase, FaJava} from "react-icons/fa";
 import {DiJavascript1} from "react-icons/di";
 import {SiPostman,SiSpringboot,SiOracle} from "react-icons/si";
+import { SiPostgresql, SiNodedotjs,SiTypescript } from 'react-icons/si';
 
 
 const Skills = ({skill}) => {
@@ -18,6 +19,9 @@ const Skills = ({skill}) => {
         'React': <FaReact color="#61DAFB"/>,
         'Javascript': <DiJavascript1 color="#F7DF1E" />,
         'Git' : <FaGitAlt color="#F05032"/>,
+        'PostgreSQL': <SiPostgresql color="#336791" />,
+        'Node.js': <SiNodedotjs color="#339933" />,
+        'TypeScript': <SiTypescript color="#3178C6" />
     }
     
   return (

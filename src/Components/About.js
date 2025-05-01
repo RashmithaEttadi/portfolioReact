@@ -13,12 +13,13 @@ const About = () => {
           <p>
             Hi, My name is <b>Rashmitha Ettadi.</b> I'm a <b>software developer.</b> I have graduated with master's degree in computer science from Purdue University, Indianapolis, IN, USA. <br/>
             I worked as an <b>application developer</b> at Accenture, India.<br></br>
-            I worked on projects in <b>Java</b>, <b>Spring Boot</b> , <b>Java Script</b> and databases like <b>MYSQL</b> and <b>Oracle</b>.
-            I like challenging tasks. <br/>
+            I like challenging tasks and currently working on <b>MERN</b> Stack.<br/>
+            I worked on projects in <b>Java</b>, <b>Spring Boot</b> , <b>Python</b> and <b>Java Script</b> and databases like <b>MYSQL</b>,<b> Postgresql</b> and <b>NOSQL databases</b>.
             I love the process of creating software products and services that will 
             positively impact people's lives.<br />
             I am interested in becoming a Full-Stack developer and started working on 
-            projects in <b>React</b> to learn Front-end frameworks.<br />
+            projects in <b>React</b> and <b>Typescript</b> to learn Front-end frameworks.<br />
+        
             Artificial Intelligence and Machine Learning technologies fascinates me and would love to explore and learn more.
             </p>
         </div>
@@ -43,13 +44,15 @@ const About = () => {
         <Skills skill='Javascript' />
         <Skills skill='React'/>
         <Skills skill='SpringBoot' />
-        <Skills skill='MongoDB'/>
-        <Skills skill='Oracle' />
+        <Skills skill='PostgreSQL' />
+        <Skills skill='TypeScript' />
         <Skills skill='MySQL'/>
         <Skills skill='C++' />
         <Skills skill='Git' />
         <Skills skill='Postman' />
-        
+        <Skills skill='Node.js' />
+        <Skills skill='MongoDB'/>
+        <Skills skill='Oracle' />
       </div>
       </section>
   )
