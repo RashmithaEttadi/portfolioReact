@@ -20,14 +20,16 @@
 
 body{
   font-family: 'Roboto Slab', sans-serif;
-  background-color: white;
-  color: #030303;
+  /* background-color: white; */
+  background-color: #031926;
+  color: #E7E7E7;
   min-height: 100vh;
 }
 
 b{
   font-weight: 500;
   color: #216ad9;
+    /* color: #0b4192;  */
 }
 
 /* Scrollbar */
@@ -62,6 +64,7 @@ b{
   z-index: -1;
   top: -30px;
 }
+
 
 
 /* NAVBAR */
@@ -112,7 +115,7 @@ b{
 }
 
 .NavbarLinks a{
-  color: #030303;
+  color: #c2c1c2;
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -157,7 +160,7 @@ b{
     position: fixed;
     inset: 0 0 0 50%;
     gap: 50px;
-    background-color:#E7E7E7;
+    background-color:#022993;
     height: 100vh;
     padding-top: max(20%,120px);
     transform: translateX(100%);
@@ -467,7 +470,7 @@ b{
 }
 .skillContent{
   font-size: 16px;
-  color:  #0c0c0c;;
+  color: #c2c1c2;
   padding: 10px;
 }
 .SkillBox:hover{
@@ -568,9 +571,9 @@ b{
 
 /* Resume */
 
-#ResumePage{
+/* #ResumePage{
   background-color:rgb(179, 179, 179);
-}
+} */
 .ResumePage{
   padding-top: 50px;
   width: fit-content;
